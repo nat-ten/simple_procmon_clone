@@ -8,3 +8,5 @@ This program traces each process in /proc to monitor all system calls made by ea
 Utilizes multi-threading by creating a thread for each process, tracing each process in its own thread.
 
 Translates each system call value to its actual name using a jump table for fast performance.
+
+Maintains a list of currently traced processes to avoid tracing the same process multiple times.
