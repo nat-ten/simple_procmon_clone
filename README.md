@@ -1,5 +1,5 @@
-# simple_procmon_clone
-A simple procmon clone for Linux
+# LinuxSyscallTracer
+A simple system call tracer for Linux
 
 Run using sudo
 
